@@ -2,9 +2,26 @@ img {
   width:300px;
 }
 
+li {
+  list-style-type: none;
+}
+
 #card {
   border-style: solid;
   border-width: 1px;
   border-color: #CECECE;
   width: 324px;
+  box-shadow: 5px 5px 0px #E6E6E6;
+  padding: 10px 10px 10px 10px;
+}
+
+.stats {
+  font-weight: bold;
+}
+
+#info{
+  border-style: inherit;
+  border-width: inherit;
+  border-color: inherit;
+  width: 300px;
 }
